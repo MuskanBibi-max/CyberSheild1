@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F5FA"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🛡 CyberShield"
+            android:textColor="#123B70"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Phishing Awareness"
+            android:textColor="#172B4D"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Learn how to recognize fake websites, suspicious links and scam messages."
+            android:textColor="#667085"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#FFFFFF"
+            android:padding="18dp"
+            android:text="WHAT IS PHISHING?\n\nPhishing is a cyberattack in which someone pretends to be a trusted person or organization to steal passwords, financial information or personal data."
+            android:textColor="#172B4D"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#FFFFFF"
+            android:padding="18dp"
+            android:text="WARNING SIGNS\n\n• Urgent messages demanding action\n\n• Misspelled website addresses\n\n• Unexpected attachments\n\n• Requests for passwords or OTP codes\n\n• Offers that seem too good to be true"
+            android:textColor="#172B4D"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#FFF0F0"
+            android:padding="18dp"
+            android:text="SAFETY RULE\n\nNever share your password or OTP. Open the official website or app directly instead of trusting an unexpected link."
+            android:textColor="#9B1C1C"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:backgroundTint="#1769AA"
+            android:text="Take Safety Quiz"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnPhishingBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Back to Home"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</ScrollView>
